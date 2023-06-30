@@ -1,0 +1,14 @@
+.password-input {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 0.5rem;
+  transform: translateY(-50%);
+  border: none;
+}
+.toggle-password:focus {
+  outline: none;
+}

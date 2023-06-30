@@ -1,0 +1,45 @@
+/* Grid system */
+
+/* Make container */
+.container {
+  width: 100%;
+  /* padding-right: $grid-gutter-width / 2;
+  padding-left: $grid-gutter-width / 2; */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Make container max widths
+@media (min-width: $grid-breakpoints) {
+  .container {
+    max-width: $container-max-widths;
+  }
+} */
+
+/* Make row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-right: -$grid-gutter-width / 2;
+  margin-left: -$grid-gutter-width / 2; */
+}
+
+/* Make column ready */
+.col {
+  position: relative;
+  width: 100%;
+  /* padding-right: $grid-gutter-width / 2;
+  padding-left: $grid-gutter-width / 2; */
+}
+
+/* Make column
+.col-#{$size} {
+  flex: 0 0 percentage($size / $grid-columns);
+  max-width: percentage($size / $grid-columns);
+} */
+/* 
+Make column offset
+.col-offset-#{$size} {
+  $num: $size / $grid-columns;
+  margin-left: if($num == 0, 0, percentage($num));
+} */

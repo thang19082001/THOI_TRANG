@@ -1,0 +1,81 @@
+.account_icon {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  float: right;
+  background: #fff;
+}
+
+.account_icon span {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  line-height: 45px;
+  font-size: 18px;
+  color: rgb(76 76 76);
+  display: inline-block;
+  font-size: 1.3rem;
+}
+
+.account_icon:hover {
+  cursor: pointer;
+}
+
+.account_icon:hover .achover {
+  display: block;
+}
+
+.account_icon .achover {
+  width: 180px;
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 10px 21.6px 2.4px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0px 10px 21.6px 2.4px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0px 10px 21.6px 2.4px rgba(0, 0, 0, 0.06);
+  -o-box-shadow: 0px 10px 21.6px 2.4px rgba(0, 0, 0, 0.06);
+  -os-box-shadow: 0px 10px 21.6px 2.4px rgba(0, 0, 0, 0.06);
+  position: absolute;
+  right: 15px;
+  z-index: 9999;
+  top: 85px;
+  display: none;
+  border-radius: 10px;
+}
+
+.account_icon .achover .btns {
+  display: block;
+  background: #08bbb7;
+  color: #fff;
+  border: solid 1px #08bbb7;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 25px;
+}
+
+.account_icon .achover .btns:last-child {
+  margin-top: 5px;
+}
+
+.account_icon .achover .btns:hover {
+  background: #fff;
+  color: #08bbb7;
+  border-color: #08bbb7;
+}
+
+.account_icon .achover .wp {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+.account_icon .achover .wp:before {
+  content: "";
+  height: 30px;
+  top: -30px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+}

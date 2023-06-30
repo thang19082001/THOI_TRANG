@@ -1,0 +1,30 @@
+#BOX_THONG_BAO{
+    display: none;
+    top: 100px;
+    position: absolute;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    
+}
+
+#WALL_THONG_BAO{
+    display: none;
+    top: 0px;
+    position: fixed;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgb(112, 112, 112);
+}
+.btn-order button{
+    padding: 20px 80px;
+    color: aliceblue;
+    background-color: rgb(236, 67, 67);
+    border: none;
+}
+.modal-content{
+    overflow: scroll;
+}
